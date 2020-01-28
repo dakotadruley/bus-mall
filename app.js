@@ -47,11 +47,31 @@ const initializeNewProductButton = () => {
     image2.src = randomProduct2.image;
     image3.src = randomProduct3.image;
 
-    input1.value = 
-    input2.value = 
-    input3.value =
+    input1.value = randomProduct.id;
+    input2.value = randomProduct2.id;
+    input3.value = randomProduct3.id;
 };
 //product selection
 initializeNewProductButton(); 
 
+productRadioTags.addEventListener('click', () => {
+    productRadioTags.forEach(radioTag => {
+        if (radioTag.checked) {
+            console.log(radioTag);
+        }
+    })
+    let json = localStorage.getItem('selections');
+    let selectionList;
+    if (json) {
+        selectionList = JSON.parse(json);
+    } else {
+        selectionList = [];
+    }
+
+    input.value
+
+    json = JSON.stringify(selectionList);
+    localStorage.setItem('selections', json);
+
+});
 
