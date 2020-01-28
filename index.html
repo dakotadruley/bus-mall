@@ -20,6 +20,39 @@
 
 <button input="button">Start!</button>
 
+<section>
+<h3 id="product-name"></h3>
+<div id="container">
+    <label class="selected">
+        <input id="input1" type="radio" name="product" value="">
+        <img id="img1" src="">
+    </label>
+    <label class="not-selected">
+        <input id="input2" type="radio" name="product" value="">
+        <img id="img2" src="">
+    </label>
+    <label class="not-selected">
+        <input id="input3" type="radio" name="product" value="">
+        <img id="img3" src="">
+    </label>
+</div>
+<p id="next-container" class="hidden">
+    <button id="next-button">Next</button>
+</p>
+</section>
+
+<section id="results-container" class="hidden">
+    <h3>Results</h3>
+    <p>You have made <span id="numberOfSelections"></span> product selections.
+    </p>
+    <h3>Selections</h3>
+    <ul id="listOfSelections"></ul>
+
+    <p>
+        <a herf="./">Play Again</a>>
+    </p>
+</section>
+
     <script type="module" src="app.js"></script>
 </body>
 
