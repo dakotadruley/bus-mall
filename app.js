@@ -31,9 +31,9 @@ next.addEventListener('click', () => {
     } else {
         selectionsArray = [];
     }
-
+  
     let selected = findById(product, selectionsArray);
-
+    
     if (!selected) {
         selected = {
             id: productSelected.value,
@@ -51,9 +51,6 @@ next.addEventListener('click', () => {
     // once you reach 25 clicks
     if (numOfClicks === 25) {
         results.textContent = numOfClicks;
-        const final = document.getElementById('listOfSelections');
-        json = JSON.parse(selectionsArray);
-        final.textContent = selectionsArray;
     } 
     
     // render new random three products

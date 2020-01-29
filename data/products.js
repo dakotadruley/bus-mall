@@ -77,7 +77,7 @@ export const productData = [
     {
         id: 'tautaun',
         name: 'Tautaun',
-        image: '../assets/tautaun.jpg',
+        image: '../assets/tauntaun.jpg',
     },
     {
         id: 'unicorn',

@@ -18,10 +18,6 @@
     Once you have made 25 product selections, the test will be complete. 
     You can keep track of your results as you go with the 'Results' section.</p>
 
-<button input="button">Start!</button>
-
-<!--Add the canvas thing here-->
-
 <section>
 <h3 id="product-name"></h3>
 <div id="container">
@@ -43,16 +39,15 @@
 </p>
 </section>
 
-<section id="results-container" class="hidden">
-    <h3>Results</h3>
+<section id="selections-container" class="hidden">
+    <h3>Selections</h3>
     <p>You have made <span id="numberOfSelections"></span> product selections.
     </p>
-    <h3>Selections</h3>
-    <ul id="listOfSelections"></ul>
-
-    <p>
-        <a herf="./">Play Again</a>>
-    </p>
+<!--Need to use Play Again button and add event listner to restart game and clear storage?-->
+    <p><a herf="./">Play Again</a></p>
+    
+    <button class='resultsButton'><a class='buttonFont' href='results/index.html'>Results Data</a></button>
+    
 </section>
 
     <script type="module" src="app.js"></script>

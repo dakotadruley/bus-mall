@@ -1,1 +1,10 @@
-/* add the css Canvas here
+/* add the css Canvas here */
+
+#container {
+    display: flex;
+}
+
+img {
+    height: 400px;
+    width: 450px;
+}
