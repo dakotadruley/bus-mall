@@ -7,13 +7,15 @@ export class ProductsArray {
         return this.products;
     }
 // to remove a product
-    removeProductById(Id) {
+    removeProductById(id) {
         this.products.forEach((product, i) => {
-            if (Id === product.id) {
+            if (id === product.id) {
                 this.products.splice(i, 1);
             }
         });
     }
+
+    // add product to an array
 
     // get the product images
     getProductsById(id) {

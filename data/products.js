@@ -17,17 +17,17 @@ export const productData = [
     {
         id: 'boots',
         name: 'Toeless Rainboots',
-        image: "../assets/boots.js",
+        image: '../assets/boots.jpg',
     },
     {
         id: 'breakfast',
         name: 'Toaster, Skillet and Coffee Maker',
-        image: "../assets/breakfast.jpg",
+        image: '../assets/breakfast.jpg',
     },
     {
         id: 'bubblegum',
         name:'Meatball Bubble Gum',
-        image: "../assets/bubblegum",
+        image: '../assets/bubblegum.jpg',
     },
     {
         id: 'chair',
